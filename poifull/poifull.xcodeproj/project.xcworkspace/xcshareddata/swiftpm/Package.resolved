@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swifteval",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/danielgindi/SwiftEval",
+      "state" : {
+        "revision" : "3f1592082845ff080f264434cbcbfc3e2dfe6993",
+        "version" : "1.0.13"
+      }
+    }
+  ],
+  "version" : 2
+}
