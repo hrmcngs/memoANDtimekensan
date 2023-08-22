@@ -104,7 +104,7 @@
                     <navigationItem key="navigationItem" id="KKx-pa-iE3"/>
                     <splitViewDetailSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <connections>
-                        <outlet property="textview" destination="gHl-LU-T6n" id="Bv7-4z-2U9"/>
+                        <outlet property="a" destination="gHl-LU-T6n" id="Yik-sA-T16"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8TV-0v-Ilb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -348,10 +348,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="9qb-fm-kaQ"/>
-        <segue reference="6vg-Sh-kPe"/>
+        <segue reference="EMC-w1-bG8"/>
+        <segue reference="iVS-Z3-PrS"/>
         <segue reference="hlB-y3-sh2"/>
-        <segue reference="1Cu-hx-n9D"/>
+        <segue reference="tO9-eh-kra"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="I.png" width="117" height="163"/>

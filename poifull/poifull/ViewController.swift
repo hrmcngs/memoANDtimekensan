@@ -8,24 +8,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var textview: UITextView!
-    var timer:Timer!
-    var uf=UserDefaults.standard
+    @IBOutlet weak var a: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        textview.text=uf.string(forKey: "katana")
-        timer = Timer.scheduledTimer(withTimeInterval: 0.01, repeats: true, block: {(t) in
-            self.uf.set(self.textview.text, forKey: "katana")
-        })
-        
-        
+        if let name =
+            UserDefaults.standard.string(forKey: "name") {
+            a.text = name
+        }}
+    @IBAction func handleTextChange() {  
+        let text = a.text
+        print(a.text ?? "(null)")
+        UserDefaults.standard.setValue(text, forKey: "name")
     }
-    override func viewDidDisappear(_ animated: Bool) {
-        super.viewDidDisappear(animated)
-        uf.set(textview.text, forKey: "katana")
-    }
-    
-    
+
 }
-
-
