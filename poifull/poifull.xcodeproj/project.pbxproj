@@ -17,6 +17,7 @@
 		A23E09152984ED860057776C /* poifullTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23E09142984ED860057776C /* poifullTests.swift */; };
 		A23E091F2984ED860057776C /* poifullUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23E091E2984ED860057776C /* poifullUITests.swift */; };
 		A23E09212984ED860057776C /* poifullUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23E09202984ED860057776C /* poifullUITestsLaunchTests.swift */; };
+		A253B3E92A94A0CD00933F9D /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A253B3E82A94A0CD00933F9D /* File.swift */; };
 		A25479AB298E342200682985 /* コスチューム1 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = A25479AA298E342200682985 /* コスチューム1 (1).png */; };
 		A25479AD298E344700682985 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25479AC298E344700682985 /* ViewController3.swift */; };
 		A25479AF298E377600682985 /* スクリーンショット 2023-02-04 15.47.35.png in Resources */ = {isa = PBXBuildFile; fileRef = A25479AE298E377600682985 /* スクリーンショット 2023-02-04 15.47.35.png */; };
@@ -71,6 +72,7 @@
 		A23E091A2984ED860057776C /* poifullUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = poifullUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A23E091E2984ED860057776C /* poifullUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poifullUITests.swift; sourceTree = "<group>"; };
 		A23E09202984ED860057776C /* poifullUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poifullUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A253B3E82A94A0CD00933F9D /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		A25479AA298E342200682985 /* コスチューム1 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "コスチューム1 (1).png"; sourceTree = "<group>"; };
 		A25479AC298E344700682985 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		A25479AE298E377600682985 /* スクリーンショット 2023-02-04 15.47.35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2023-02-04 15.47.35.png"; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				A23E09062984ED860057776C /* Assets.xcassets */,
 				A23E09082984ED860057776C /* LaunchScreen.storyboard */,
 				A25479AC298E344700682985 /* ViewController3.swift */,
+				A253B3E82A94A0CD00933F9D /* File.swift */,
 				A2AFB2E7298E26D200DF518D /* ViewController2.swift */,
 				A23E090B2984ED860057776C /* Info.plist */,
 			);
@@ -361,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A25479AD298E344700682985 /* ViewController3.swift in Sources */,
+				A253B3E92A94A0CD00933F9D /* File.swift in Sources */,
 				A23E09022984ED840057776C /* ViewController.swift in Sources */,
 				A2AFB2E8298E26D200DF518D /* ViewController2.swift in Sources */,
 				A23E08FE2984ED840057776C /* AppDelegate.swift in Sources */,
