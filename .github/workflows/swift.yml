@@ -1,22 +1,22 @@
-# This workflow will build a Swift project
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-swift
+// swift-tools-version:5.7
+import PackageDescription
 
-name: Swift
-
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
-jobs:
-  build:
-
-    runs-on: macos-latest
-
-    steps:
-    - uses: actions/checkout@v4
-    - name: Build
-      run: swift build -v
-    - name: Run tests
-      run: swift test -v
+let package = Package(
+    name: "memoANDtimekensan",
+    platforms: [
+        .macOS(.v12)
+    ],
+    products: [
+        .executable(name: "memoANDtimekensan", targets: ["memoANDtimekensan"]),
+    ],
+    targets: [
+        .executableTarget(
+            name: "memoANDtimekensan",
+            dependencies: []
+        ),
+        .testTarget(
+            name: "memoANDtimekensanTests",
+            dependencies: ["memoANDtimekensan"]
+        ),
+    ]
+)
