@@ -1,16 +1,17 @@
-// swift-tools-version:5.8
+// Package.swift
+// swift-tools-version:5.7
 import PackageDescription
 
 let package = Package(
     name: "memoANDtimekensan",
     platforms: [
-        .macOS(.v13)
+        .macOS(.v12)
     ],
     products: [
         .executable(name: "memoANDtimekensan", targets: ["memoANDtimekensan"]),
     ],
     targets: [
-        .target(
+        .executableTarget(
             name: "memoANDtimekensan",
             dependencies: []
         ),
